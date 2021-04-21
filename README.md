@@ -6,4 +6,6 @@ that all Go packages must be a module.
 This repository contains exammples of achieving common tasks when using modules:
 
 - [Simple hello world with sub-packages, but no external dependency](./hello-world)
+- TODO: Use an external package
+- TODO: Using a changed/local version of an external package
 
