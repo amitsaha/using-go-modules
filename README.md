@@ -17,3 +17,10 @@ go mod init github.com/username/<dir-name>
 - [Use an external package](./hello-dep)
 - TODO: Using a changed/local version of an external package
 
+## Notes
+
+0. A repository can contain one or more Go modules and each module can contain one ore more Go packages
+1. It's important that the path you specify to  `go get github.com/username/dirname/path` matches
+what you have in the `go.mod` file i.e. the module name must be: `github.com/username/dirname/path`.
+2. When using private packages, use the GONOSUMDB variable as explained [here](https://medium.com/mabar/today-i-learned-fix-go-get-private-repository-return-error-reading-sum-golang-org-lookup-93058a058dd8)
+
