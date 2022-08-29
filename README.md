@@ -13,7 +13,7 @@ what you have in the `go.mod` file i.e. the module name must be: `github.com/use
 
 ## Examples
 
-This repository contains exammples of achieving common tasks when using modules. Each
+This repository contains examples of achieving common tasks when using modules. Each
 directory is a Go module and has been created as follows:
 
 ```
